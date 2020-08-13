@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.5.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Voting</title>
+</head>
+<body>
+  <div class="container">
+    <div>
+      <h1>Welcome Voters!</h1>
+    </div>
+
+    <div>
+      <form id="formOne">
+        <div class="form-group">
+          <label for="voter">A name</label>
+          <input id="voter" class="form-control" type="text">
+        </div>
+
+        <button type="submit" class="btn btn-danger">Vote!</button>
+      </form>    
+        
+    </div>
+
+    <div id="vote">
+      <h1>Vote Today!</h1>
+      <p>Hello <span class="voter"></span> you are old enough to vote.</p>
+
+      <h2>Register Today!</h2>
+      <ul>
+        <li><a href="https://www.usa.gov/register-to-vote">Click here!</a></li>
+        <li></li>
+        <li></li>
+      </ul>
+      <h2>Locations</h2>
+
+      <h2>Upcoming Elections</h2>
+      <ul>
+        <li>August 11, 2020 Special elections</li>
+        <p>The City of Portland has called for a Special Runoff election on August 11, 2020, to fill the vacancy for Commissioner, Position 2. The City of Portland Charter Section 2-206 requires a Special Election for a vacant position. All voters in the City of Portland are receiving a ballot for this Special Election with the top two candidates from the May Election for Commissioner, Position 2. The runoff election for other Portland positions, including Mayor and Commissioner, Position 4 are scheduled for the November 3, 2020 General Election.</p>
+        <li>November 3, 2020 General elections</li>
+        <p>Yes! For the president!</p>
+      </ul>
+    </div>
+
+    <div id="too-young">
+      <h1>Sorry your too young</h1>
+      <p>Hello <span class="younger"></span> you are not old enough to vote.</p>
+
+      <p>We appreciate your getr ahead attitude but you have come up short. Look below for your next steps.</p>
+      <h2>Information about voting</h2>
+      <ul>
+        <li><a href="https://www.ncsl.org/research/elections-and-campaigns/preregistration-for-young-voters.aspx">Click Here!</a></li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
